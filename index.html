@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD GENERATOR By Norbert Yemuang</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="msgCopy msgCopy-hide">
+            Your password has been copied
+        </div>
+        <div class="container__generator">
+            <div class="header">
+                <h1>PASSWORD GENERATOR</h1>
+            </div>
+            <div class="help__text">
+                Need a password ? try my password generator. generate secure,random passwords.
+            </div>
+            <div class="options__generator">
+                <div class="length__password">
+                    <div class="left-layout">
+                        <p>Password Length</p>
+                        <input type="range" name="" min="4" max="20" value="4" id="input-range">
+                    </div>
+                    <div class="length-value">
+                        4
+                    </div>
+                </div>
+
+            </div>
+            <div class="result">
+                <input type="text" name="" id="" readonly>
+
+            </div>
+            <div class="controll">
+                <button class="reset"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                        <path d="M37.476562 5.9785156 A 1.50015 1.50015 0 0 0 36 7.5L36 10.605469C32.815876 7.7471496 28.609324 6 24 6C14.0764 6 6 14.0764 6 24C6 33.9236 14.0764 42 24 42C33.9236 42 42 33.9236 42 24C42 23.048235 41.90482 22.141037 41.773438 21.275391 A 1.50015 1.50015 0 1 0 38.808594 21.724609C38.925211 22.492963 39 23.247765 39 24C39 32.3024 32.3024 39 24 39C15.6976 39 9 32.3024 9 24C9 15.6976 15.6976 9 24 9C27.934257 9 31.480462 10.527501 34.150391 13L30.5 13 A 1.50015 1.50015 0 1 0 30.5 16L37.5 16 A 1.50015 1.50015 0 0 0 39 14.5L39 7.5 A 1.50015 1.50015 0 0 0 37.476562 5.9785156 z" />
+                    </svg></button>
+                <button class="copy">
+                    Copy to clipboard
+                </button>
+            </div>
+            <p class="text-copy">Copyright (c) 2022 Norbert Yemuang</p>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
