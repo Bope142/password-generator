@@ -17,8 +17,7 @@ const CopyPasswordToClipboard = (textElmentInput) => {
 }
 
 const getRandomNumber = (max) => {
-    let n = Math.floor(Math.random() * max)
-    return n
+    return Math.floor(Math.random() * max)
 }
 const generatePassword = (lengthPassword) => {
     const lowCase = "abcdefghijklmnopqrstuvxyz";
