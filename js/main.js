@@ -38,7 +38,6 @@ const generatePassword = (lengthPassword) => {
         case 1: {
             char = SpecialChar[getRandomNumber(SpecialChar.length)]
             password += char
-
         }
         break;
         case 2: {
@@ -47,14 +46,13 @@ const generatePassword = (lengthPassword) => {
         }
         break;
         case 3: {
-            char = upCase[getRandomNumber(char.length)]
+            char = upCase[getRandomNumber(upCase.length)]
             password += char
         }
         break;
         }
     }
     return password;
-
 }
 
 
